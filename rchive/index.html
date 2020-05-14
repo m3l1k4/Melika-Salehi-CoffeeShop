@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./styles-readonly.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <title>Melika's Restaurant</title>
+  <!-- CSS Styling -->
+  <style>
+    /* FOR THIS CHALLENGE, WRITE ALL OF YOUR STYLING WITHIN THIS <style> TAG */
+    /* PART 1 CSS */
+  nav{background-color: rgb(179,193,176);}
+  header{ color:rgb(57,57,57);}
+  #hero-container {background-image: url("https://drive.google.com/uc?export=view&id=1Jz937sGmWecge5XywqMkmqPoFqliUu9z");
+                    background-size:100% auto;}
+  #greeting h1{font-family: Arial; margin-bottom: 10px;}
+  #slogan .highlight{color: rgb(232,131,106);}
+    /* PART 2 CSS*/
+  
+    .column {
+  float: left;
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+ 
+  background:transparent;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  #section-title{margin-bottom: 0px;margin-top: 40px; color:  rgb(232,131,106);}
+  #menu{margin-bottom: 50px; color:black; }
+  #ulist{margin-top: 30px; color:black;}
+  #weekday{color:darkgreen;}
+  #underlined{ text-decoration: underline;}
+ 
+  </style>
+  <!-- END OF CSS -->
+</head>
+<body>
+
+  <!-- HTML & CSS: PART 1 -->
+  <header>
+    <!-- 
+      For this <header> element, write the following styling:
+        - font color of rgb(57,57,57)
+     -->
+     
+    <nav>
+    <!--
+      For this <nav> element, write the following styling:
+        - background color of rgb(179,193,176). 
+    -->
+      <h1>Melika's</h1>
+      <ul>
+        <li>Menu</li>
+        <li>Home</li>
+      </ul>
+    </nav>
+    <div id="hero-container">
+      <!-- 
+        In this div above #greeting, we want to display a nice big hero image. 
+        Below this comment, create an image tag and ensure it has the following:
+          - Your image should have a width of 100%. 
+          - The image you should show lives at this url (https://drive.google.com/uc?export=view&id=1Jz937sGmWecge5XywqMkmqPoFqliUu9z).
+      -->
+
+        <div id='greeting'>
+          <!-- 
+          Below this comment, create a level-one header displaying the restaurant name. This is the main title of the page and should be above the slogan.
+          Your h1 should have the following styling:
+            - The font style should be Arial.
+            - Should have a margin bottom of 10 pixels.
+          -->
+          <h1> Melika's</h1>
+
+          <!-- 
+          Apply a class name of "highlight" to each <span> tag in the level-five header below.
+          For your class name write the styling to change the color of the font from black to rgb(232,131,106).
+          -->
+          <h5 id="slogan"><span class="highlight">Always</span> serving <span class="highlight">fresh</span> ingredients with a smile ツ</h5>
+        </div>
+        <i class="fas fa-chevron-down"></i>
+    </div>
+  </header>
+  <!-- 
+    HTML & CSS: PART 2 
+    Follow the instructions / requirements presented in the prep course "Projects" tab > "Restaurant Website & Menu" > "Part 2"
+  -->
+  <main>
+    <h1 id="menu">MENU</h1>
+    <!-- Create a restaurant menu here -->
+
+
+<div id="deals">
+
+  <h2 id="section-title">DEALS</h2>
+ <h3 id="ulist"><ul>
+    <li><span id="weekday">Monday</span> $3 off vegetarian salads and mains</li>
+    <li><span id="weekday">Tuesday</span> $2 off bar rail </li>
+    <li><span id="weekday">Wednesday </span>half-priced appetizers <span id="underlined">after 9pm</span> </li>
+    <li><span id="weekday">Thursday</span> $2 off cocktails </li>
+    <li><span id="weekday">Friday</span> one free dessert with the purchase 2 mains</li>
+
+
+  </ul></h3> 
+
+</div>
+
+
+ <div id="apiz">
+ 
+   
+
+    <h2 id="section-title">APPETIZERS</h2>
+
+    <div class="row">
+      <div class="column">
+        <h3>Cranberry Brie Bread &bull; 18</h3>
+        <p>Gooey brie topped with sweet cranberries on a crusty loaf of sourdough </p>
+      </div>
+      <div class="column">
+        <h3>Korean Beef Lettuce Wraps &bull; 14</h3>
+        <p>bulgogi beef wrapped in little lettuce packages with<br> homemade pickled onions and radishes, topped with miso mayo </br></p>
+      </div>
+    </div>
+
+
+<div class="row">
+  <div class="column" >
+    <h3>Spinach-Stuffed Mushrooms &bull; 12</h3>
+    <p>description: gooey brie topped with sweet cranberries on a crusty loaf of sourdough</p>
+  </div>
+
+</div>
+
+
+<div id="mains">
+ 
+   
+
+  <h2 id="section-title">MAINS</h2>
+
+  <div class="row">
+    <div class="column" >
+      <h3>Apple and Onion Pork Chops &bull; 24</h3>
+      <p>Hearty fall flavours served with brussels sprouts with toasted hazelnut butter and an in house made french roll</div>
+    <div class="column">
+      <h3>Grilled Moroccan Chicken &bull; 26</h3>
+      <p>Fragrant chicken cooked with garlic, lemon, and pomegranate molasses served with roasted turmeric cauliflower topped with creamy yogurt  </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column" >
+      <h3>Grilled Lobster Tails with Coriander &bull; 32</h3>
+      <p>Fresh and tender lobster tails seasoned with coriander and topped with warm chilli butter sauce </div>
+    <div class="column">
+      <h3>Dried Tomato Florentine Pasta  &bull; 22</h3>
+      <p>Spicy pasta cooked in a sun dried tomato cream sauce topped with spinach and mozzarella  </div>
+  </div>
+
+
+</div>
+
+
+<div id="salads">
+ 
+   
+
+  <h2 id="section-title">SALADS</h2>
+
+  <div class="row">
+    <div class="column" >
+      <h3>Broccoli and Apple Salad with Chicken  &bull; 18</h3>
+      <p>Charred broccoli, sweet fuji apples, feta cheese and warm grilled chicken breast served on a bed of mixed greens</div>
+    <div class="column">
+      <h3>Persimmon, Pomegranate, and Kale Salad  &bull; 14</h3>
+      <p>Massaged seasoned kale salad served with a delicious tangy citrus dressing </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column" >
+      <h3>Peach, Sweet Corn and Halloumi Salad  &bull; 22</h3>
+      <p>Fresh sweet corn and juicy peaches served with salty halloumi cheese on arugula  </div>
+
+  </div>
+
+
+</div>
+
+<div id="deserts">
+ 
+   
+
+  <h2 id="section-title">DESERTS</h2>
+
+  <div class="row">
+    <div class="column" >
+      <h3>Salted Caramel White Chocolate Brownies   &bull; 12</h3>
+      <p>Decadent gooey white chocolate brownies layered with in house made caramel </div>
+    <div class="column">
+      <h3>Cinnamon Sugar Pretzel Bites  &bull; 8</h3>
+      <p>Warm fried dough covered in cinnamon sugar served with chocolate sauce for dipping  </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+   </ul>
+
+  </main>
+</body>
+</html>
