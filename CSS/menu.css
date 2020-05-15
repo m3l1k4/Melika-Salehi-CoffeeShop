@@ -19,20 +19,25 @@ header nav {
         /*  justify-content: space-between; */
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+         align-items: baseline; 
+         
   width: 100%;
   min-height: 55px;
   padding: 1rem 1rem;
   position:fixed;
   top: 0;
   background-color:#fff0ed;
+  
 }
 
 header .nav-link {
-  margin-right: 30px;
+  margin-right: 20px;
   list-style-type: none;
-  display: inline-block;
+  display: inline;
+  
 }
+
+
 
 #blue-text{color: #5bacc3;}
 
@@ -80,7 +85,7 @@ footer h2{ font-family: Helvetica ; font-weight:100; font-size: 33px;}
 /*nav bar*/
 nav h1{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; float: left;}
 nav ul{ font-family: Helvetica ; font-size: 21px;list-style-type: none;}
-nav li{ list-style-type: none; text-decoration: none;  }
+/*nav li{ list-style-type: none; text-decoration: none;  }*/
 a{text-decoration: none; color: #393939}
 
 #title-box{  width: 285px; height: 185px; background-position: top left; }
