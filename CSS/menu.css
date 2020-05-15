@@ -30,10 +30,11 @@ header nav {
 
 header .nav-link {
   margin-right: 30px;
- 
   list-style-type: none;
   display: inline-block;
 }
+
+#blue-text{color: #5bacc3;}
 
 #hero-container {
  
@@ -62,7 +63,7 @@ header .nav-link {
 #Cold-Drinks{background-color: #f7f7f7;}
 #Pasteries{background-color: #FFF0ED;}
 #Drink-Menu h1,h3, h2, p{ text-align: center; color: #464646}
-#menu-head-list{margin-top: 10px;}
+#menu-head-list{padding-top: 1em; padding-bottom: 1em;}
 h1{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
 h3{ font-family: Helvetica ; font-weight:100; font-size: 33px;}
 h2{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
@@ -82,6 +83,6 @@ a{text-decoration: none; color: #393939}
 #title-box h1{background-color:#464646; color: #fff; text-align:center;
 padding-bottom: 60px; margin-top: 0px;}
 
-menu-text{ font-family: Helvetica ;  font-size: 18px; color: #f7f7f7;}
+menu-text{ font-family: Helvetica ;  font-size: 18px; color: #f7f7f7; margin:0.5em; }
 small-text{font-family: Helvetica ;  font-size: 21px; color: #464646;}
 text-text{font-family: Helvetica ;  font-size: 33px; color: #464646;}
