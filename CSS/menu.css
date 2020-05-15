@@ -1,11 +1,53 @@
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 53.3vw;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+        /*  justify-content: space-between; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 55px;
+  padding: 1rem 1rem;
+  position:fixed;
+  top: 0;
+  background-color:#fff0ed;
+}
+
+header .nav-link {
+  margin-right: 30px;
+ 
+  list-style-type: none;
+  display: inline-block;
+}
+
 #hero-container {
-    
-    z-index: -1;
-    width: 100vw;
-    height: 40vw;
-    overflow: hidden;
-    
-  }
+ 
+  z-index: -1;
+  width: 100vw;
+  height: 53.3vw;
+  background-color: gainsboro;
+  overflow: hidden;
+}
+
+#title-box{  width: 285px; height: 185px; background-position: center; margin-left: 34%; margin-right: 34%; }
+#title-box h1{background-color:#464646; color: #fff; text-align:center;
+ padding-top: 30%; }
+
 
 #menu-head-list{
 
@@ -13,8 +55,8 @@
     background-color: #393939;
     text-align: center;
 
-
 }
+
 
 #Hot-Drinks{background-color: #FFF0ED;}
 #Cold-Drinks{background-color: #f7f7f7;}
@@ -27,21 +69,19 @@ h2{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
 
 footer h2{ font-family: Helvetica ; font-weight:100; font-size: 33px;}
 
-menu-text{ font-family: Helvetica ;  font-size: 18px; color: #f7f7f7;}
-small-text{font-family: Helvetica ;  font-size: 21px; color: #464646;}
-text-text{font-family: Helvetica ;  font-size: 33px; color: #464646;}
+#Drink-Menu .price{color:#5bacc3;; text-align: center; font-style: normal;}
+#Drink-Menu p{text-align: centre; font-style: italic; margin-left: 34%; margin-right: 34%;}
 
-
-#Drink-Menu .price{color:#5bacc3;; text-align: center;}
-#Drink-Menu p{text-align: centre; font-style: italic; padding-right: 65%;}
-
-nav h1{ font-family: Helvetica ; font-weight:100; font-size: 50px;}
-nav ul{ font-family: Helvetica ; font-size: 21px;}
-nav li{ list-style-type: none;}
-
-button{font-family: Helvetica ; font-size: 21px;}
-#discount-text{font-family: Helvetica ; font-size: 45px;}
+/*nav bar*/
+nav h1{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; float: left;}
+nav ul{ font-family: Helvetica ; font-size: 21px;list-style-type: none;}
+nav li{ list-style-type: none; text-decoration: none;  }
+a{text-decoration: none; color: #393939}
 
 #title-box{  width: 285px; height: 185px; background-position: top left; }
 #title-box h1{background-color:#464646; color: #fff; text-align:center;
 padding-bottom: 60px; margin-top: 0px;}
+
+menu-text{ font-family: Helvetica ;  font-size: 18px; color: #f7f7f7;}
+small-text{font-family: Helvetica ;  font-size: 21px; color: #464646;}
+text-text{font-family: Helvetica ;  font-size: 33px; color: #464646;}
