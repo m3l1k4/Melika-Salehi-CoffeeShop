@@ -59,19 +59,23 @@ header .nav-link {
 }
 
 
-#Hot-Drinks{background-color: #FFF0ED;}
-#Cold-Drinks{background-color: #f7f7f7;}
-#Pasteries{background-color: #FFF0ED;}
-#Drink-Menu h1,h3, h2, p{ text-align: center; color: #464646}
-#menu-head-list{padding-top: 1em; padding-bottom: 1em;}
+#Hot-Drinks{background-color: #FFF0ED; padding: 1rem; }
+#Cold-Drinks{background-color: #f7f7f7;padding: 1rem; }
+#Pasteries{background-color: #FFF0ED;padding: 1rem; }
+#Drink-Menu h1,h3, h2, p,h4{ text-align: center; color: #464646}
+
+
+
+#menu-head-list{padding-top: 1.25rem; padding-bottom: 1.25rem;}
 h1{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
 h3{ font-family: Helvetica ; font-weight:100; font-size: 33px;}
-h2{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
-
+h2{ font-family: Helvetica ; font-weight:100; font-size: 60px; margin-bottom: 0.75rem;}
+h4{font-family: Helvetica; font-weight: normal; font-size: 21px; margin-bottom: 0.7rem; margin-top: 1rem}
+p{margin-bottom: 0.5rem; font-family: Helvetica;}
 footer h2{ font-family: Helvetica ; font-weight:100; font-size: 33px;}
 
 #Drink-Menu .price{color:#5bacc3;; text-align: center; font-style: normal;}
-#Drink-Menu p{text-align: centre; font-style: italic; margin-left: 34%; margin-right: 34%;}
+#Drink-Menu p{text-align: centre; font-style: italic; margin-left: 30%; margin-right: 30%;}
 
 /*nav bar*/
 nav h1{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; float: left;}
