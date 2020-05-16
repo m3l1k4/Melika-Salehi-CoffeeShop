@@ -8,84 +8,82 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="CSS/main.css">
-<style>
 
-#hero-container {background-image: url("coffee-shop-assets/coffee-circle.jpg");
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                    background-position: center; background-size: 100% auto;}
-
-</style>
 </head>
 
 <body>
     <header> 
-        <nav> 
-             <img src="coffee-shop-assets/logobeans.png" width="42" height="42"> 
-            <h1>nitro</h1>
+        <nav class="nav-bar"> 
+             <img class="nav-bar_img" src="coffee-shop-assets/logobeans.png" width=auto height="50px"> 
+            <h1 class="nav-bar-heading">nitro</h1>
             <ul>
-              <li><a href=BLANK>ABOUT</a></li>
-              <li><a href=BLANK>MENU</a></li>
-              <li><a href=BLANK>SHOP NOW</a></li>
+              <li class="nav-bar-text"><a class="nav-bar-link" href=BLANK>ABOUT</a></li>
+              <li class="nav-bar-text"><a class="nav-bar-link" href=BLANK>MENU</a></li>
+              <li class="nav-bar-text"><a class="nav-bar-link" href=BLANK>SHOP NOW</a></li>
             </ul>
        
 
         </nav>
+        <div class="hero-container">
+            <h1 class="hero-container-title"> Nitro Coffee</h1>
+            <p class="hero-container-body">  Coffee is a brewed drink prepared from roasted coffee beans, the seads of berries from certain Coffee species. </p>
+            <img  class="hero-container-img" src="coffee-shop-assets/coffeebeans-hero.png"/>
+            <button type="button" class="button"><span class="button-text">SHOP NOW</span></button>
+
+
+            
+
+        </h1>
 
         </header>
 </body>
 <main>
   
-    <h1>Nitro Coffee</h1>
-    <p>Coffee is a brewed drink prepared from roasted coffee beans, the seads of berries from certain Coffee species.</p>
-    <img src="coffee-shop-assets/coffeebeans-hero.png"/>
-    <p></p>
-    <button type="button">SHOP NOW</button>
-
+    
     <h2>Our Products</h2>
 
     <div class="card">
-        <img src="coffee-shop-assets/coffeebeans.png"/>
-        <div class="container">
-            <h3>Coffee Beans</h3>
-            <p>$18.99</p> 
+        <img class="card_photo" src="coffee-shop-assets/coffeebeans.png" alt="coffeebeans"/>
+        <div class="card_container">
+            <h3 class="card_name">Coffee Beans</h3>
+            <p class="card_price">$18.99</p> 
         </div>
     </div>
 
     <div class="card">
-        <img src="coffee-shop-assets/coldbrew.png"/>
-        <div class="container">
-            <h3>Cold Brew</h3>
-            <p>$4.99</p>
+        <img class="card_photo" src="coffee-shop-assets/coldbrew.png" alt="coldbrew"/>
+        <div class="card_container">
+            <h3 class="card_name">Cold Brew</h3>
+            <p class="card_price">$4.99</p>
         </div>
     </div>
 
 <div class="card">
-    <img src="coffee-shop-assets/inhousebrew.png"/>
-        <div class="container">
-            <h3>In-House Brew</h3>
-            <p>$2.99</p>
+    <img class="card_photo" src="coffee-shop-assets/inhousebrew.png" alt="inhousebrew"/>
+        <div class="card_container">
+            <h3 class="card_name">In-House Brew</h3>
+            <p class="card_price">$2.99</p>
         </div>
     </div>
 
     
-    <button type="button">VIEW ALL</button>
+    <button type="button" class="button"><span class="button-text">VIEW ALL</span></button>
     <p id="discount-text">Get 20% off your first order with code: FirstNitro</p>
 <footer>
     
-    <div id="address">
+    <div class="address">
         <h3>Address</h3>
         <p>503 Broadway Penthouse</p>
         <p>NEW YORK</p>
     </div>
 
-    <div id="hours">
+    <div class="hours">
         <h3>Hours</h3>
         <p>Monday - Friday 9am - 7pm</p>
         <p>Saturday - Sunday 10am - 5 pm</p>
     </div>
 
-    <div id="social">
+    <div class="social">
     <h3>Social</h3>
        <a href="https://www.facebook.com"><img src="coffee-shop-assets/facebook.png"></a> 
       <a href="https://www.yelp.com"><img src="coffee-shop-assets/yelp.png"></a> 
