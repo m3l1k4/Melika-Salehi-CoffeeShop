@@ -29,10 +29,73 @@ nav .nav-bar-text{ list-style-type: none; font-family: Helvetica ; font-size: 18
                     font-style: normal; display: inline; margin-right: 20px;}
 nav .nav-bar-heading{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; float: left;}
 
-header .hero-container{
-background-color: #fff0ed; ;
+.hero-container{
+background-color: #fff0ed; 
+column-count: 2;
+column-gap: 220px;
+column-rule-width: 50%;
+padding-left: 70px;
+padding-bottom: 50px;
+/*column-rule-style:
 
+column-rule-color:
+column-rule:
+column-span:
+column-width:*/
 }
+
+.hero-container-text{
+  font-family: helvetica;
+  color:#393939;
+  padding-right: 25px;
+  margin-right: 25px;
+  
+}
+
+.hero-container-title{ 
+   padding-top: 2rem;
+   padding-bottom: 0rem;
+   padding-right: 2rem;
+   padding-left:3rem;
+   font-size: 45px;
+   font-weight: 100;
+  }
+.hero-container-body{
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  padding-right: 2rem;
+  padding-left:3rem;
+  
+  font-size: 21px;
+  
+  
+}
+
+.hero-container-button{
+  margin-left: 50px;
+   }
+
+button{
+  color:#5bacc3;
+  border-width: 0px;
+  background-color:#5bacc3 ;
+  width: 180px;
+  height:55px;
+  outline-style: solid;
+}
+
+.button-text{
+  color:white;
+  font-family: helvetica;
+  font-size: 21px;
+}
+.hero-container-img{
+
+  height: 500px;
+ 
+}
+
+
 
 .card_price{ font-family: helvetica; font-size: 21px; color:#5bacc3;}
 .card_container{
@@ -48,16 +111,6 @@ background-color: #fff0ed; ;
 
 }
 
-.button{
-width: 180px;
-height:55px;
-color: red;
-background: white;
-border-width: 2px;
-offset: 5px;
-outline-style: solid;
-
-}
 
 .button_text{
 
