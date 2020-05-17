@@ -23,8 +23,9 @@
   background-color:#fff0ed;
   
 }
+.nav-bar-link-active{ color: #5bacc3; text-decoration: none;}
+ .nav-bar-link{text-decoration: none; color: #393939 }
 
-nav .nav-bar-link{text-decoration: none; color: #393939 }
 nav .nav-bar-text{ list-style-type: none; font-family: Helvetica ; font-size: 18px; 
                     font-style: normal; display: inline; margin-right: 20px;}
 nav .nav-bar-heading{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; float: left;}
@@ -98,7 +99,7 @@ button{
 }
 
 main{background-color: #f7f7f7;overflow: visible; }
-footer{background-color: salmon;}
+
 
 .our-product{
 column-count: 3;
@@ -202,9 +203,33 @@ font-weight: bold;
 footer{
   background-color: #fff0ed; 
   column-count: 3;
-  column-gap: 220px;
+  column-gap: 70px;
   column-rule-width: 50%;
-  padding-left: 70px;
+  padding-left: 10%;
+  padding-right:9% ;
   padding-bottom: 50px;
+  padding-top: 50px;
 
+}
+
+.footer-section{
+
+  color: #393939;
+}
+.footer-section-text{
+  font-family: helvetica;
+  font-size:21px;
+  font-weight: 100;
+  margin-bottom:1rem;
+}
+
+.footer-section-text-sub{
+font-family: helvetica;
+font-size: 18px;
+font-weight:100;
+
+}
+
+.footer-icon{
+  padding-right:1rem;
 }
