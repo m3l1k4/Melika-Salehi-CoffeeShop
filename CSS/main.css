@@ -1,4 +1,5 @@
 /* css with BEM. menu.css doesnt have BEM*/ 
+/* This CSS is more organized, albeit there may be unneccesary repetition of stylings*/
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
