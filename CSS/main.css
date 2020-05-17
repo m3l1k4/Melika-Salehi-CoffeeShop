@@ -153,4 +153,27 @@ height: 238px;
   padding-top: 1rem;
 }
 
+.promos{
+
+  background-color: #fff;
+  padding: 70px;
+
+}
+
+.promos-discount-text{
+
+  font-family: helvetica;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+background-color: #000;
+
+
+}
+
+.promos-discount-code{
+font-weight: bold;
+
+}
 
