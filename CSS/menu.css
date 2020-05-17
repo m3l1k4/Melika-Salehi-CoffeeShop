@@ -1,30 +1,26 @@
+/* CSS without BEM, main.css has BEM*/
+
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-header {
-  width: 100vw;
-  height: 53.3vw;
-}
 
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
+ /* -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-        /*  justify-content: space-between; */
+
   -webkit-box-align: center;
-      -ms-flex-align: center;
+     -ms-flex-align: center; */
          align-items: flex-end; 
          
   width: 100%;
   min-height: 55px;
   padding: 1rem 1rem;
-  /*position:fixed;*/
-  top: 0;
   background-color:#fff0ed;
   
 }
@@ -35,7 +31,6 @@ nav .nav-link {
   display: inline;
   
 }
-
 
 
 #blue-text{color: #5bacc3;}
@@ -67,8 +62,6 @@ padding-top: 1.25rem; padding-bottom: 1.25rem;
 #Cold-Drinks{background-color: #f7f7f7;padding: 1rem; }
 #Pasteries{background-color: #FFF0ED;padding: 1rem; }
 #Drink-Menu h1,h3, h2, p,h4{ text-align: center; color: #464646}
-
-
 
 
 h1{ font-family: Helvetica ; font-weight:100; font-size: 60px;}
