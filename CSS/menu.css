@@ -1,5 +1,5 @@
 /* CSS without BEM, main.css has BEM*/
-
+/* this is CSS before learning how to organize. This css works but would not be easily legible by other developers*/
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
