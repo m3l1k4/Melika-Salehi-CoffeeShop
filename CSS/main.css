@@ -118,48 +118,69 @@ padding-bottom: 3%;
 }
 .main-products__product-card{
   
-  background-color: #fff;
-  box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
-
+  margin-bottom: 30px;
   margin-right: 100px;
+  position: relative;
 
+  background-color:#fff;
   width: 435px;
-  height: 440px;
+  height: 443px;
   border-radius: 10px;
-}
-
-.main-products__product-info{
-  padding-top: 4rem;
-  
-  padding-left: 0rem;
-  text-align: center;
-
-}
-
-.main-products__product-name{
-  font-family: helvetica;
-  font-weight: 100;
-  font-size: 33px;
-  color:#393939;
+  box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.2);
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
 .main-products__product-img{
+
+  align-self: center;
+
+  
+  height: 238px;
+  background-image: inherit;
+ position: relative;
+ top: 10%;
+
+
+  }
+.main-products__product-info{
+
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+
   display: flex;
-  justify-content: center;
-padding-left: 33%;
-padding-top: 40px;
-height: 250px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+ font-size: 25px;
+ font-weight: bold;
+  font-family: helvetica;
+  background-color: #fff0ed;
+  padding: 2rem;
+  text-align: center;
+ overflow: hidden; 
+ position: relative;
+ 
 
 }
 
+.main-products__product-name{
 
+  font-weight: 50;
+
+  color:#393939;
+}
 
 
 .main-products__product-price{ font-family: helvetica; 
-  font-size: 33px; 
+
+
   color:#5bacc3;
-  padding-top: 1rem;
+
 }
 
 .main-products__view-all{
@@ -169,8 +190,6 @@ height: 250px;
   padding-top: 2%;
   padding-bottom: 4%;
 }
-
-
 
 
 
@@ -191,11 +210,11 @@ height: 250px;
   text-align: center;
   font-weight: 100;
   color: #fff;
-background-color: #000;opacity: 85%;
-padding-top: 3rem;
-padding-bottom: 3rem;
-padding-right: 0rem;
-margin-right: 0px
+  background-color: #000;opacity: 85%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 0rem;
+  margin-right: 0px
 
 }
 
@@ -208,16 +227,11 @@ footer{
 
   display: flex;
   justify-content: space-around; 
- background-color: #fff0ed; 
- padding-left: 5%;
+  background-color: #fff0ed; 
+  padding-left: 5%;
   padding-right:15% ;
   padding-bottom: 3%;
   padding-top: 3%; 
-/* column-count: 3;
-  column-gap: 70px;
-  column-rule-width: 50%;
- 
-  p*/
 
 }
 
@@ -228,14 +242,14 @@ footer{
 .footer-section__title{
   font-family: helvetica;
   font-size:21px;
-font-weight: 50;
+  font-weight: 50;
   margin-bottom:1rem;
 }
 
 .footer-section__body{
-font-family: helvetica;
-font-size: 18px;
-font-weight:50;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight:50;
 
 }
 
