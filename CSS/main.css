@@ -198,28 +198,31 @@ padding-bottom: 3%;
 
 
 
-.main-discount{
 
-  background-color: #fff;
-  padding-right: 12%;
-  padding-left: 12%;
-  padding-top: 10%;
-  padding-bottom: 10%;
 
 }
 
+.discount{
+
+  background-color: #fff;
+
+
+}
+
+.main-discount__section{
+  margin: 5% 10% 10% 10%;
+}
 .main-discount__text{
 
   font-family: helvetica;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   font-weight: 100;
   color: #fff;
-  background-color: #000;opacity: 85%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-right: 0rem;
-  margin-right: 0px
+background-color: #000;opacity: 85%;
+padding: 4rem 1rem 4rem 1rem;
+
+  
 
 }
 
@@ -243,11 +246,13 @@ footer{
 .footer-section{
 
   color: #393939;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 .footer-section__title{
   font-family: helvetica;
-  font-size:21px;
-  font-weight: 50;
+  font-size:33px;
+  font-weight: 70;
   margin-bottom:1rem;
 }
 
@@ -255,9 +260,92 @@ footer{
   font-family: helvetica;
   font-size: 18px;
   font-weight:50;
-
 }
 
 .footer-social__img{
   padding-right:1rem;
 }
+
+
+
+
+
+.learn-more{
+  display: flex;
+  flex-direction: row;
+ 
+  padding: 10% 2rem 5% 2rem;
+  background-color: #fff;
+}
+
+.learn-more__info{
+
+display: flex;
+  flex-direction: column;
+
+
+  margin-right: 17%;
+
+padding-left: 10%;
+justify-content: left;
+
+
+
+}
+
+.learn-more__hero{
+ 
+
+
+  padding-right: 9%;
+   
+
+    position: relative;
+ align-content: center;
+}
+
+.learn-more__hero-back{
+  width: 435px;
+  height: 435px;
+  background-image: inherit;
+
+}
+
+.learn-more__hero-front{
+  width: 150px;
+  align-self: flex-end;
+  position: absolute;
+  top:20%;
+  left: 25%;
+  
+}
+
+.learn-more__img--icon{
+  height: 75px; 
+margin-right:6.20rem;
+margin-bottom: 2rem;
+margin-top: 1rem;
+
+
+}
+
+.learn-more__button{
+  margin: 1rem 1rem 1rem 0;
+}
+
+  .learn-more__header{
+  font-family: helvetica;
+    font-size: 70px;
+    font-weight: 100;
+    color: #393939;
+    padding:1rem 1rem 1rem 0;
+  }
+
+  .learn-more__body{
+    font-size: 25px;
+    font-weight: normal;
+    color: #393939;
+    font-family: helvetica;
+    padding:1rem 1rem 1rem 0;
+
+  }
