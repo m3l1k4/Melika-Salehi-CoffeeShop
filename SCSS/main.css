@@ -116,7 +116,12 @@ main {
   width: 190px;
   height: 65px;
   z-index: 2;
-  pointer-events: none;
+}
+
+.button-child:active {
+  border-color: #464646;
+  top: -60px;
+  right: 5px;
 }
 
 button {

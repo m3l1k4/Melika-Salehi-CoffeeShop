@@ -87,11 +87,18 @@ object-fit: contain;
   position: relative;
   top:-64px;
   right:10px;
+
   border: 2px solid #464646;
   width: 190px;
   height:65px;
   z-index:2;
-  pointer-events: none;
+  
+}
+
+.button-child:active{
+    border-color: #464646;
+    top:-60px;
+    right:5px;
 }
 
 
@@ -251,8 +258,6 @@ animation:discount-flash 2.5s linear infinite;
     0%   {background-color: rgba(0,0,0,1);}
     50%  {background-color:rgba(91,172,195,1)}
     100% {background-color: rgba(0,0,0,1);}
-
- 
 
   }
 
