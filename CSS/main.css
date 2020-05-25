@@ -250,8 +250,22 @@ margin-right: 0px
 
 }
 
+.footer__nav-img-one{
+  position: absolute;
+  bottom: 10%;
+  right: -1%;
+ }
+
+ .footer__nav-img-two{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+ 
+ }
+
 footer{
 
+  position: relative;
   display: flex;
   justify-content: space-around; 
   background-color: #fff0ed; 
