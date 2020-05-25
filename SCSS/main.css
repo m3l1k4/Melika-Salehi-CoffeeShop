@@ -262,6 +262,32 @@ button {
   padding-bottom: 3rem;
   padding-right: 0rem;
   margin-right: 0px;
+  -webkit-animation: discount-flash 2.5s linear infinite;
+          animation: discount-flash 2.5s linear infinite;
+}
+
+@-webkit-keyframes discount-flash {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes discount-flash {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: #5bacc3;
+  }
+  100% {
+    background-color: black;
+  }
 }
 
 .main-discount__code {
@@ -360,6 +386,29 @@ footer {
   position: absolute;
   bottom: 20%;
   left: 25%;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.learn-more__hero-front:hover {
+  -webkit-animation-play-state: initial;
+          animation-play-state: initial;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 .learn-more__hero-child {

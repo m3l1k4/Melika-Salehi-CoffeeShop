@@ -240,10 +240,22 @@ background-color: #000;opacity: 85%;
 padding-top: 3rem;
 padding-bottom: 3rem;
 padding-right: 0rem;
-margin-right: 0px
-  
+margin-right: 0px;
+
+animation:discount-flash 2.5s linear infinite;
 
 }
+
+
+@keyframes discount-flash {
+    0%   {background-color: rgba(0,0,0,1);}
+    50%  {background-color:rgba(91,172,195,1)}
+    100% {background-color: rgba(0,0,0,1);}
+
+ 
+
+  }
+
 
 .main-discount__code{
   font-weight: bold;
@@ -346,8 +358,14 @@ position: absolute;
   bottom:20%;
   left: 25%;
 
+
+  animation:spin 2s linear infinite;
+  animation-play-state:paused;
+
 }
 
+.learn-more__hero-front:hover{ animation-play-state:initial;}
+@keyframes spin { 100% { transform: rotate(360deg); } }
 
 .learn-more__hero-child{
   width: 435px;
@@ -394,5 +412,7 @@ position: absolute;
   padding:1rem 1rem 1rem 0;
 
 }
+
+
 
 
