@@ -1,0 +1,398 @@
+/* css with BEM. menu.css doesnt have BEM*/ 
+/* This CSS is more organized, albeit there may be unneccesary repetition of stylings*/
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header__nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; 
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+         
+  width: 100%;
+  min-height: 55px;
+  
+padding: 2rem;
+  /*position:fixed;*/
+  top: 0;
+  background-color:#fff0ed;
+  
+}
+
+main{background-color: #f7f7f7;overflow: visible; }
+.header__nav-items__nav-link--active{ color: #5bacc3; text-decoration: none;}
+.header__nav-items__nav-link{text-decoration: none; color: #393939 }
+.header__nav-items{ list-style-type: none; font-family: Helvetica ; font-size: 18px; 
+                    font-style: normal; display: inline; margin-right: 20px;}
+.header__nav-title{ font-family: Helvetica ; font-weight:100; font-size: 50px;  color: #393939; padding-left: 1rem;}
+.header__nav-bar--left{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero-container{
+background-color: #fff0ed; 
+padding: 4rem;
+display: flex;
+align-items: flex-start;
+object-fit: contain;
+
+}
+
+.hero-container__hero-img{
+  height: 548px;
+  padding-right: 7rem;
+
+}
+.hero-container__text{
+  font-family: helvetica;
+  color:#393939;
+  padding-right: 0rem;
+  margin-right: 0rem;
+  padding-left: 5rem;
+}
+
+.hero-container__hero-header{ 
+   padding-top: 2rem;
+   padding-bottom: 0rem;
+   
+
+   font-size: 60px;
+   font-weight: 100;
+  }
+
+.hero-container__hero-body{
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  
+
+  font-size: 21px;
+  font-weight: 70;
+  padding-right: 12rem;
+  margin-right: 4rem;
+   
+}
+
+
+
+.button-child{
+  position: relative;
+  top:-64px;
+  right:10px;
+  border: 2px solid #464646;
+  width: 190px;
+  height:65px;
+  z-index:2;
+  pointer-events: none;
+}
+
+
+
+button{
+  color:#5bacc3;
+  border-width: 0px;
+  background-color:#5bacc3 ;
+  width: 180px;
+  height:55px;
+  outline-style: solid;
+}
+
+.button-text{
+  color:white;
+  font-family: helvetica;
+  font-size: 21px;
+}
+
+
+.main-products__title-text{
+  font-family: helvetica;
+  color:#393939;
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  padding: 3rem;
+
+  
+}
+
+.main-products{
+  display: flex;
+  justify-content: space-between; 
+  align-content: center;
+  padding-left: 10%;
+  padding-right: 0%;
+  padding-bottom: 3%;
+
+ 
+ 
+}
+.main-products__product-card{
+  
+  margin-bottom: 30px;
+  margin-right: 100px;
+  position: relative;
+
+  background-color:#fff;
+  width: 435px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px  rgba(0, 0, 0, 0.2);
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.main-products__product-img{
+
+  align-self: center;
+  height: 238px;
+  background-image: inherit;
+  position: relative;
+  top: 10%;
+
+
+
+
+  }
+.main-products__product-info{
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  justify-content: space-evenly;
+
+  
+  font-weight: bold;
+  font-family: helvetica;
+  background-color: #fff0ed;
+  padding: 2rem 0 2rem 0;
+  text-align: left;
+  overflow: hidden; 
+  position: relative;
+ 
+
+}
+
+.main-products__product-name{
+
+  font-weight: 50;
+  font-size: 25px;
+  color:#393939;
+}
+
+
+.main-products__product-price{ font-family: helvetica; 
+
+  font-size: 33px;
+  color:#5bacc3;
+
+}
+
+.main-products__view-all{
+  background-color: #f7f7f7;
+  padding-left: 43.75%;
+  padding-right: 42%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+
+
+
+
+
+
+.discount{
+
+  background-color: #fff;
+
+}
+
+.main-discount__section{
+  background-color: #fff;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.main-discount__text{
+
+  font-family: helvetica;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+background-color: #000;opacity: 85%;
+padding-top: 3rem;
+padding-bottom: 3rem;
+padding-right: 0rem;
+margin-right: 0px
+  
+
+}
+
+.main-discount__code{
+  font-weight: bold;
+
+}
+
+.footer__nav-img-one{
+  position: absolute;
+  bottom: 10%;
+  right: -1%;
+ }
+
+ .footer__nav-img-two{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+ 
+ }
+
+footer{
+
+  position: relative;
+  display: flex;
+  justify-content: space-around; 
+  background-color: #fff0ed; 
+  padding-left: 5%;
+  padding-right:15% ;
+  padding-bottom: 3%;
+  padding-top: 3%; 
+
+}
+
+.footer-section{
+
+  color: #393939;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.footer-section__title{
+  font-family: helvetica;
+  font-size:33px;
+  font-weight: 70;
+  margin-bottom:1rem;
+}
+
+.footer-section__body{
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight:50;
+}
+
+.footer-social__img{
+  padding-right:1rem;
+}
+
+
+
+
+
+.learn-more{
+  display: flex;
+  flex-direction: row;
+ 
+  padding: 10% 2rem 5% 2rem;
+  background-color: #fff;
+}
+
+.learn-more__info{
+
+  display: flex;
+  flex-direction: column;
+  margin-right: 17%;
+  padding-left: 10%;
+  justify-content: left;
+
+
+
+}
+
+.learn-more__hero{
+  
+  padding-right: 9%;
+  position: relative;
+
+
+}
+
+.learn-more__hero-back{
+  width: 435px;
+  height: 435px;
+position: absolute;
+
+
+
+}
+
+.learn-more__hero-front{
+  width: 150px;
+  position: absolute;
+  bottom:20%;
+  left: 25%;
+
+}
+
+
+.learn-more__hero-child{
+  width: 435px;
+  height: 435px;
+  border: 5px solid #5bacc3;
+  z-index:2;
+  pointer-events: none;
+  position: relative;
+  top:-25px;
+  left: -25px;
+  
+
+}
+.learn-more__icons{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+.learn-more__img--icon{
+  height: 40px; 
+  
+
+}
+
+.learn-more__button{
+  align-content: flex-start;
+  justify-content: left;
+}
+
+.learn-more__header{
+  font-family: helvetica;
+  font-size: 45px;
+  font-weight: 100;
+  color: #393939;
+  padding:1rem 1rem 1rem 0;
+}
+
+.learn-more__body{
+  font-size: 23px;
+  font-weight: normal;
+  color: #393939;
+  font-family: helvetica;
+  padding:1rem 1rem 1rem 0;
+
+}
+
+
